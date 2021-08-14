@@ -1,19 +1,15 @@
 
 import React from 'react';
 import './App.css';
-import Rheader from './Rcomponent/rheader-navbar';
-import SearchPhotos from "./searchPhotos"
+import RocketUnsplashApi from './RocketUsplashApiF/RocketUnsplashApi';
+
 
 function App() {
   return (
     <div className="App">
-      <Rheader />
-
-      <div className="container">
-        <SearchPhotos />
-        
-      </div>
+      <RocketUnsplashApi />
     </div>
+
   );
 }
 export default App;
